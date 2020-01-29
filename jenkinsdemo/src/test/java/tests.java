@@ -7,6 +7,6 @@ public class tests {
 
     @Test
     void t01_test(){
-        assertThat("test").isEqualTo("test1");
+        assertThat("test").isEqualTo("test");
     }
 }
