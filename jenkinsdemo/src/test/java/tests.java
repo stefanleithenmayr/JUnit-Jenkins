@@ -9,4 +9,9 @@ public class Tests {
     void t01_test(){
         assertThat("test").isEqualTo("test");
     }
+
+    @Test
+    void t02_test_fail(){
+        assertThat("test").isEqualTo("test2");
+    }
 }
